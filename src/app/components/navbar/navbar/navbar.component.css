@@ -1,0 +1,86 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #1a1a1a;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Julius Sans One", sans-serif;
+    
+}
+
+.navbar .logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+
+.navbar .first-list{
+    font-family: "Julius Sans One", sans-serif;
+    
+      
+}
+
+.navbar .first-list a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.navbar .second-list{
+    margin-right: 40px;
+}
+
+.navbar .second-list a{
+    font-family: "Julius Sans One", sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.navbar .login-btn{
+    padding: 5px 25px;
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 12px;
+}
+
+.reservation-btns{
+    display: flex;
+    border: 1px solid white;
+    
+}
+
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    color: #fff; /* O el color que estés usando */
+    padding: 4px 0;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: currentColor; /* Usa el mismo color del texto */
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.top{
+    width: 100%;
+    height: 50px;
+}

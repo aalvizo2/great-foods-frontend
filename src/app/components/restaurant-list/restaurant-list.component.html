@@ -1,0 +1,11 @@
+<h1>Lista de restaurantes</h1>
+<ul *ngIf="restaurants && restaurants.length > 0">
+  <li *ngFor="let r of restaurants">
+    {{ r.RestaurantName }}
+  </li>
+</ul>
+
+<p *ngIf="restaurants && restaurants.length === 0">
+  No se encontraron restaurantes.
+</p>
+
